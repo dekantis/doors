@@ -1,0 +1,16 @@
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 20px;
+  background: #e7e6d4;
+  overflow: auto;
+}
+li {
+  float: left;
+  width: calc(100% / 3 - 20px);
+  height: 50px;
+  margin-right: 20px;
+  background: #ffffff;
+  border: 3px dashed #666666;
+}
+li:last-child {margin-right: 0;}
